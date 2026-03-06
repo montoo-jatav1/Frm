@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Appointment Form</title>
+</head>
+<body>
+        <h1>Hey dear! </h1>
+        <h1>fill the form and get some special gift </h1>
+<h2>APPOINTMENT FORM</h2>
+
+<form action="https://montoo-jatav.github.io/html.tags/" method="POST">
+
+<fieldset>
+<legend>NAME</legend>
+<input type="text" name="name" required>
+</fieldset>
+
+<fieldset>
+<legend>SURNAME</legend>
+<input type="text" name="surname" required>
+</fieldset>
+
+
+
+<fieldset>
+<legend>Gender</legend>
+Male <input type="radio" name="gender" value="Male" required>
+Female <input type="radio" name="gender" value="Female">
+Transgender <input type="radio" name="gender" value="Transgender">
+</fieldset>
+
+<fieldset>
+<legend>Address</legend>
+<textarea name="address" required></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Pincode</legend>
+<input type="text" name="pincode" required>
+</fieldset>
+
+<fieldset>
+<legend>EMAIL</legend>
+<input type="email" name="email" required>
+</fieldset>
+<fieldset>
+<legend>PASSWORD</legend>
+<input type="password" name="password" required>
+</fieldset>
+
+<fieldset>
+<legend>AREA:</legend>
+
+        <select name="" ID= "--select_area_type--">
+        <option value="RURAL">RURAL</option>
+        <option value="URBAN">URBAN</option>
+        </select>
+</fieldset>
+<br>
+<input type="hidden" name="_next" value="thankyou.html">
+        <form action="https://formspree.io/f/xbdawoqp" method="POST">
+
+<input type="hidden" name="_next" value="thankyou.html">
+
+
+<button type="submit">SUBMIT</button>
+
+</form>
+        <hr> 
+    
+</body>
+
+     <style>
+        body {
+        BACKGROUND: hsla(176.5,90.1%,57.5%,0.983);
+                BACKGROUND:white;
+       background-image: url('https://unsplash.com/photos/white-rose-enclosed-photograph-pDGNBK9A0sk');
+        
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat ;
+        display: flex; flex-direction: column;
+}
+button{
+    background-size: 10px;
+    padding: 30px;
+    width: 100px;
+    color: green;
+    
+}
+.submit-btn {
+  background-color: green;
+  color: black;
+  
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: orange;
+  
+}
+h2{
+    background-color: black;
+    color: white;
+}
+h1{
+    color: blue;
+    justify-content: center;
+}
+        
+    </style>
+
+
+        </html>
